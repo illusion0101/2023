@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Sora', sans-serif;
+    background: #191919;
+    color: #ebebeb;
+}
+
+h2{
+    font-size: 18vh;
+    font-weight: 600;
+    padding-bottom: 8vh;
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-item{
+    margin: 0 4vh;
+    margin-bottom: 8vh;
+    font-size: 4vh;
+}
+
+.header-item a{
+    text-decoration: none;
+    color: #ebebeb;
+}
+
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.day, .minute, .hour, .second{
+    font-size: 7vh;
+}
+
+
+/* hiding the scrollbar */
+
+/* chrome, safari, opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+  
+/* ie, edge, firefox */
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
