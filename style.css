@@ -39,6 +39,7 @@ h2{
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    margin: 2px;
 }
 
 .countdown{
@@ -49,6 +50,12 @@ h2{
 
 .day, .minute, .hour, .second{
     font-size: 7vh;
+}
+
+@media(max-width: 500px){
+    h2{
+        font-size: 12vh;
+    }
 }
 
 
